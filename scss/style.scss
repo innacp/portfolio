@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #101010;
+  --accent-color: #db574d;
+}
+
+body {
+  font-family: "Clash Display", sans-serif;
+  background-color: #eeedee;
+}
+
+.modal-container {
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  justify-content: space-between;
+  //   column-gap: 30px;
+}
+
+.header-logo-text {
+  color: var(--main-color);
+  font-size: 26px;
+  font-weight: 400px;
+}
+
+.burger-icon-box {
+  max-width: 55px;
+}
+
+.burger-icon {
+  width: 100%;
+  height: 23px;
+}
