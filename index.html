@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="main-page">
+    <div class="main-page-wrapper">
         <section class="header">
             <div class="modal-container">
                 <p class="header-logo-text">Jacob Grönberg</p>
@@ -21,37 +21,43 @@
                 </div>
             </div>
             <div class="banner-container">
-                <h1>Jacob<br>Grønberg</h1>
-                <p>Photographer<br>& Visual artist</p>
-            </div>
-            <div class="header-image-box">
-                <img src="img/header-main.jpg" alt="photo">
-            </div>
-            <div class="cta-button-box">
-                <button class="cta-button">Work With Me</button>
-            </div>
-            <div class="author-image-box">
-                <img src="img/jacob.jpg" alt="photo">
-                <p>Hi, Im Jacob</p>
+                <h1 class="banner-title">Jacob<br>Grønberg</h1>
+                <p class="banner-subtitle">Photographer<br>& Visual artist</p>
+                <div class="header-image-box">
+                    <img class="header-image" src="img/header-main.jpg" alt="photo">
+                    <div class="cta-button-box">
+                        <button class="cta-button">Work<br>With Me</button>
+                    </div>
+                </div>
+                <div class="author-image-box">
+                    <img src="img/jacob.jpg" alt="photo">
+                    <p>Hi, Im Jacob</p>
+                </div>
+                <div class="scroll-down-box">
+                    <img class="scroll-down-arrow" src="img/down-arrow.svg" alt="arrow-icon">
+                    <p class="scroll-down-text">Scroll Down & Explore</p>
+                </div>
             </div>
         </section>
         <section class="services-section">
-            <h4>Services</h4>
+            <p class="services-section-title">&#8212; Services</p>
             <div class="services-container">
                 <div class="service-box">
-                    <h4>01</h4>
+                    <p class="service-number">01</p>
                     <p class="service-title">Photo Shooting</p>
                     <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
+                <hr>
                 <div class="service-box">
-                    <h4>02</h4>
+                    <p class="service-number">02</p>
                     <p class="service-title">Video Editing</p>
                     <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
+                <hr>
                 <div class="service-box">
-                    <h4>03</h4>
+                    <p class="service-number">03</p>
                     <p class="service-title">Art Direction</p>
                     <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -59,195 +65,256 @@
             </div>
         </section>
         <section class="latest-work-section">
-            <h2>Latest<span class="highlighted">Work</span></h2>
-            <div class="view-button-box">
-                <a href="">View All</a>
-                <img src="img/right-arrow.svg" alt="arrow">
+            <div class="latest-work-title-box">
+                <h2 class="latest-work-title">Latest <span class="highlighted-section-header">Work</span></h2>
+                <div class="view-button-box">
+                    <a class="view-all-button" href="#">View All</a>
+                    <img src="img/right-arrow.svg" alt="arrow">
+                </div>
             </div>
             <div class="works-container">
                 <div class="work-box">
-                    <h5>Dancing in Black & <span class="highlighted">White</span></h5>
-                    <div class="work-box">
-                        <img src="img/header-main.jpg" alt="photo">
+                    <p class="work-title">Dancing in<br>Black & <span class="highlighted">White</span></p>
+                    <div class="work-image-box">
+                        <img class="work-image" src="img/header-main.jpg" alt="photo">
                     </div>
-                    <p>New York</p>
-                    <p>October 2021</p>
+                    <div class="work-info-box">
+                        <p>New York</p>
+                        <p>October 2021</p>
+                    </div>
                 </div>
                 <div class="work-box">
-                    <h5>Feminine<span class="highlighted">Energy</span></h5>
-                    <div class="work-box">
-                        <img src="img/girl.jpg" alt="photo">
+                    <p class="work-title">Feminine<br><span class="highlighted">Energy</span></p>
+                    <div class="work-image-box">
+                        <img class="work-image" src="img/girl.jpg" alt="photo">
                     </div>
-                    <p>New York</p>
-                    <p>October 2021</p>
+                    <div class="work-info-box">
+                        <p>New York</p>
+                        <p>October 2021</p>
+                    </div>
                 </div>
                 <div class="work-box">
-                    <h5>Style &<span class="highlighted">Fashion</span></h5>
-                    <div class="work-box">
-                        <img src="img/header-main.jpg" alt="photo">
+                    <p class="work-title">Style &<br><span class="highlighted">Fashion</span></p>
+                    <div class="work-image-box">
+                        <img class="work-image" src="img/guy sit.jpg" alt="photo">
                     </div>
-                    <p>New York</p>
-                    <p>October 2021</p>
+                    <div class="work-info-box">
+                        <p>New York</p>
+                        <p>October 2021</p>
+                    </div>
                 </div>
                 <div class="work-box">
-                    <h5>Eyes<span class="highlighted">Closed</span></h5>
-                    <div class="work-box">
-                        <img src="img/header-main.jpg" alt="photo">
+                    <p class="work-title">Eyes <span class="highlighted">Closed</span></p>
+                    <div class="work-image-box">
+                        <img class="work-image" src="img/eye.jpg" alt="photo">
                     </div>
-                    <p>New York</p>
-                    <p>October 2021</p>
+                    <div class="work-info-box">
+                        <p>New York</p>
+                        <p>October 2021</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="exhibitions-section">
-            <div class="exhibitions-header-container">
-                <h2>Current<span>Exhibitions</span></h2>
+            <div class="exhibitions-title-box">
+                <h2 class="exhibitions-title">Current <span class="highlighted-section-title">Exhibitions</span></h2>
                 <div class="view-button-box">
-                    <a href="">View All</a>
+                    <a class="view-all-button" href="#">View All</a>
                     <img src="img/right-arrow.svg" alt="arrow">
                 </div>
             </div>
             <div class="exhibitions-container">
                 <div class="exhibition-box">
-                    <div class="exhibition-img-box">
-                        <img src="img/girl-back.jpg" alt="photo">
+                    <div class="exhibition-image-box">
+                        <img class="exhibition-image" src="img/girl-back.jpg" alt="photo">
                     </div>
-                    <div class="exhibiton-description-box">
-                        <p>New York &#8212; Town Hall &#8212; 2024</p>
-                        <h4>Independent <span>Beauty</span></h4>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                    </div>
-                    <div class="buy-ticket-button">
-                        <a href="#">Buy Ticket</a>
-                        <img src="img/diagonal-arrow.svg" alt="arrow">
-                    </div>
-                    <div class="date-box">
-                        <p>Oct</p>
-                        <p>12</p>
-                    </div>
-                </div>
-                <div class="exhibition-box">
-                    <div class="exhibition-img-box">
-                        <img src="img/girl-sit.jpg" alt="photo">
-                    </div>
-                    <div class="exhibiton-description-box">
-                        <p>Paris &#8212; Galerie d'Art &#8212; 2024</p>
-                        <h4>In Humanity We <span>Trust</span></h4>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                    </div>
-                    <div class="buy-ticket-button">
-                        <a href="#">Buy Ticket</a>
-                        <img src="img/diagonal-arrow.svg" alt="arrow">
-                    </div>
-                    <div class="date-box">
-                        <p>Jun</p>
-                        <p>16</p>
+                    <div class="exhibition-info-container">
+                        <div class="exhibition-info-wrapper">
+                            <div class="exhibiton-description-box">
+                                <p class="exhibition-city">New York <span class="exhibition-location"> &#8212; Town Hall
+                                    </span>
+                                    &#8212; 2024</p>
+                                <h4 class="exhibition-title">Independent <span>Beauty</span></h4>
+                                <p class="exhibition-description">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                    elitr,
+                                    sed
+                                    diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            </div>
+                            <div class="buy-ticket-button-box">
+                                <a class="buy-ticket-button" href="#">Buy Tickets</a>
+                                <img src="img/diagonal-arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="exhibition-date-box">
+                            <p class="exhibition-month">Oct</p>
+                            <p class="exhibition-date">12</p>
+                        </div>
                     </div>
                 </div>
+                <hr>
                 <div class="exhibition-box">
-                    <div class="exhibition-img-box">
-                        <img src="img/glass-guy.jpg" alt="photo">
+                    <div class="exhibition-image-box">
+                        <img class="exhibition-image" src="img/girl-sit.jpg" alt="photo">
                     </div>
-                    <div class="exhibiton-description-box">
-                        <p>Berlin &#8212; Kunsthalle &#8212; 2024</p>
-                        <h4>Berlin At <span>Night</span></h4>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="exhibition-info-container">
+                        <div class="exhibition-info-wrapper">
+                            <div class="exhibiton-description-box">
+                                <p class="exhibition-city">Paris <span class="exhibition-location">&#8212; Galerie
+                                        d'Art</span>
+                                    &#8212; 2024</p>
+                                <h4 class="exhibition-title">In Humanity We <span>Trust</span></h4>
+                                <p class="exhibition-description">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                    elitr, sed
+                                    diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            </div>
+                            <div class="buy-ticket-button-box">
+                                <a class="buy-ticket-button" href="#">Buy Tickets</a>
+                                <img src="img/diagonal-arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="exhibition-date-box">
+                            <p class="exhibition-month">Jun</p>
+                            <p class="exhibition-date">16</p>
+                        </div>
                     </div>
-                    <div class="buy-ticket-button">
-                        <a href="#">Buy Ticket</a>
-                        <img src="img/diagonal-arrow.svg" alt="arrow">
+                </div>
+                <hr>
+                <div class="exhibition-box">
+                    <div class="exhibition-image-box">
+                        <img class="exhibition-image" src="img/glass-guy.jpg" alt="photo">
                     </div>
-                    <div class="date-box">
-                        <p>May</p>
-                        <p>01</p>
+                    <div class="exhibition-info-container">
+                        <div class="exhibition-info-wrapper">
+                            <div class="exhibiton-description-box">
+                                <p class="exhibition-city">Berlin <span class="exhibition-location">&#8212;
+                                        Kunsthalle</span>
+                                    &#8212; 2024</p>
+                                <h4 class="exhibition-title">Berlin At <span>Night</span></h4>
+                                <p class="exhibition-description">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                    elitr, sed
+                                    diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            </div>
+                            <div class="buy-ticket-button-box">
+                                <a class="buy-ticket-button" href="#">Buy Tickets</a>
+                                <img src="img/diagonal-arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="exhibition-date-box">
+                            <p class="exhibition-month">May</p>
+                            <p class="exhibition-date">01</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="feedbacks-section">
             <div class="feedbacks-header">
-                <h3>What my Clients <span>Say</span></h3>
-                <p>Worked with Over <span>50 clients</span> around the world</p>
-                <button>Work With Me
+                <h3 class="feedbacks-section-title">What my Clients <span class="highlighted-section-title">Say</span>
+                </h3>
+                <p class="feedbacks-subtitle">Worked with Over <span class="feedbacks-highlighted">50 clients</span>
+                    around the
+                    world</p>
+                <a class="work-with-me-button">Work With Me
                     <img src="img/right-arrow-orange.svg" alt="#">
-                </button>
+                </a>
             </div>
             <div class="feedback-container">
                 <div class="feedback-image-box">
-                    <img src="img/feedback-one.jpg" alt="photo">
+                    <img class="feedback-image" src="img/feedback-one.jpg" alt="photo">
                 </div>
                 <div class="feedback-info-box">
-                    <img src="img/quotation.svg" alt="">
-                    <p class="feedback-title">I Really Enjoyed Working With Jacob</p>
+                    <div class="quotation-box">
+                        <img src="img/quotation.svg" alt="">
+                        <p class="feedback-title">I Really Enjoyed Working With Jacob</p>
+                    </div>
                     <p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                         <br>Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Laoreet sit amet
                         cursus
                         sit amet dictum sit amet justo.
-                        <br>Michelle Lindstrøm &#8212; Photoshoot
                     </p>
+                    <p class="feedback-name">Michelle Lindstrøm &#8212; Photoshoot</p>
                 </div>
             </div>
+            <hr>
             <div class="feedback-container">
                 <div class="feedback-image-box">
-                    <img src="img/feedback-two.jpg" alt="photo">
+                    <img class="feedback-image" src="img/feedback-two.jpg" alt="photo">
                 </div>
                 <div class="feedback-info-box">
-                    <img src="img/quotation.svg" alt="">
-                    <p class="feedback-title">I Really Enjoyed Working With Jacob</p>
+                    <div class="quotation-box">
+                        <img src="img/quotation.svg" alt="">
+                        <p class="feedback-title">Excellent experience</p>
+                    </div>
                     <p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <br>Jannis Jackson &#8212; Art Direction
+
                     </p>
+                    <p class="feedback-name">Jannis Jackson &#8212; Art Direction</p>
                 </div>
             </div>
+            <hr>
             <div class="feedback-container">
                 <div class="feedback-image-box">
-                    <img src="img/feedback-three.jpg" alt="photo">
+                    <img class="feedback-image" src="img/feedback-three.jpg" alt="photo">
                 </div>
                 <div class="feedback-info-box">
-                    <img src="img/quotation.svg" alt="">
-                    <p class="feedback-title">I Really Enjoyed Working With Jacob</p>
+                    <div class="quotation-box">
+                        <img src="img/quotation.svg" alt="">
+                        <p class="feedback-title">Jacob is an amazing artist</p>
+                    </div>
                     <p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <br>Daniela Berg &#8212; Photoshoot
+
                     </p>
+                    <p class="feedback-name">Daniela Berg &#8212; Photoshoot</p>
                 </div>
             </div>
         </section>
         <section class="cta-section">
-            <h3>Let's Work <span class="highlighted">Together</span></h3>
-            <button>Get In Touch</button>
+            <h3 class="cta-section-title">Let's work <span class="highlighted-section-title">Together</span></h3>
+            <div class="cta-section-button-box">
+                <button class="cta-section-button">Get In<br>Touch</button>
+                <div class="cta-section-button-border"></div>
+            </div>
         </section>
         <section class="footer">
-            <div class="artist-info-box">
-                <h2>Jacob Grönberg</h2>
-                <p>Photograph & Visual Artist</p>
+            <hr class="footer-line">
+            <div class="footer-content-container">
+                <div class="artist-info-box">
+                    <h2 class="footer-logo-name">Jacob Grönberg</h2>
+                    <p class="footer-artist-info">Photographer & Visual Artist</p>
+                </div>
+                <div class="footer-menu-box">
+                    <p class="footer-list-title">Menu</p>
+                    <div class="footer-menu-list">
+                        <a class="footer-link" href="#">Home</a>
+                        <a class="footer-link" href="#">Projects</a>
+                        <a class="footer-link" href="#">Exhibitions</a>
+                        <a class="footer-link" href="#">About</a>
+                        <a class="footer-link" href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-info-box">
+                    <p class="footer-list-title">Info</p>
+                    <div class="footer-info-list">
+                        <a class="footer-link" href="#">Styleguide</a>
+                        <a class="footer-link" href="#">Licensing</a>
+                        <a class="footer-link" href="#">Changelog</a>
+                    </div>
+                </div>
+                <div class="social-media-box">
+                    <a class="footer-link" href="#">Twitter</a>
+                    <a class="footer-link" href="#">Instagram</a>
+                    <a class="footer-link" href="#">Facebook</a>
+                </div>
             </div>
-            <div class="footer-menu-box">
-                <p class="menu-title">Menu</p>
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Exhibitions</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </div>
-            <div class="footer-info-box">
-                <p>Info</p>
-                <a href="#">Styleguide</a>
-                <a href="#">Licensing</a>
-                <a href="#">Changelog</a>
-            </div>
-            <div class="social-media-box">
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-            </div>
-            <a href="https://templates.gola.io/">&#169; Made by Pawel Gola</a>
+            <a class="designer-link" href="https://templates.gola.io/">&#169; Made by <span class="highlighted">Pawel
+                    Gola</span></a>
         </section>
     </div>
 </body>

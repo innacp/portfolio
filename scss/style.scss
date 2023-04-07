@@ -13,27 +13,398 @@ body {
   font-family: "Clash Display", sans-serif;
   background-color: #eeedee;
 }
-
+.main-page-wrapper {
+  padding: 0px 40px;
+  max-width: 450px;
+}
+.header {
+  padding-top: 15px;
+  width: 100%;
+  margin-bottom: 90px;
+}
 .modal-container {
   display: flex;
   width: 100%;
   z-index: 1;
   position: fixed;
   justify-content: space-between;
-  //   column-gap: 30px;
+  align-items: center;
 }
-
 .header-logo-text {
   color: var(--main-color);
-  font-size: 26px;
-  font-weight: 400px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-
 .burger-icon-box {
   max-width: 55px;
+  width: 100%;
 }
-
 .burger-icon {
   width: 100%;
   height: 23px;
+}
+.banner-container {
+  padding-top: 50px;
+}
+.banner-title {
+  color: var(--accent-color);
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+.banner-subtitle {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-image-box {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header-image {
+  width: 100%;
+}
+.banner-title {
+  margin-bottom: 10px;
+}
+.banner-subtitle {
+  margin-bottom: 20px;
+}
+.author-image-box {
+  display: none;
+}
+.scroll-down-arrow {
+  display: none;
+}
+.scroll-down-text {
+  display: none;
+}
+.cta-button-box {
+  position: absolute;
+  bottom: -60px;
+}
+.cta-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  font-size: 17px;
+  font-weight: 300;
+  position: relative;
+  font-family: "Clash Display", sans-serif;
+}
+.cta-button::after {
+  display: inline-block;
+  content: "";
+  border: 1px solid var(--accent-color);
+  border-radius: 100%;
+  width: 128px;
+  height: 125px;
+  position: absolute;
+  top: -3px;
+  left: 0px;
+}
+.services-section-title {
+  margin-bottom: 10px;
+}
+.service-number {
+  color: var(--accent-color);
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.service-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.service-description {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+hr {
+  width: 100%;
+  border-color: var(--main-color);
+  opacity: 0.1;
+  height: 1px;
+  margin-bottom: 30px;
+}
+.services-section {
+  margin-bottom: 80px;
+}
+.latest-work-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.latest-work-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 400;
+}
+// .highlighted {
+//   color: var(--accent-color);
+//   text-transform: none;
+// }
+.view-all-button {
+  display: none;
+}
+.work-box {
+  margin-bottom: 40px;
+}
+.work-title {
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.work-image-box {
+  max-width: 400px;
+}
+.work-image {
+  width: 100%;
+}
+.work-info-box {
+  display: none;
+}
+.latest-work-section {
+  margin-bottom: 80px;
+}
+.exhibitions-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.exhibitions-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 400;
+}
+.highlighted-section-title {
+  color: var(--accent-color);
+  text-transform: none;
+}
+.exhibition-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.exhibition-image-box {
+  max-width: 425px;
+  margin-bottom: 10px;
+}
+.exhibition-image {
+  width: 100%;
+}
+.exhibition-location {
+  display: none;
+}
+.exhibition-info-container {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 20px;
+}
+.exhibition-title {
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.exhibition-city,
+.exhibition-description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+.exhibition-date-box {
+  color: var(--accent-color);
+  font-weight: 400;
+  .exhibition-month {
+    font-size: 16px;
+  }
+  .exhibition-date {
+    font-size: 32px;
+  }
+}
+.buy-ticket-button-box {
+  display: flex;
+  .buy-ticket-button {
+    color: var(--accent-color);
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+.exhibitions-section {
+  margin-bottom: 80px;
+}
+.feedbacks-section-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.feedbacks-subtitle {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.feedbacks-highlighted {
+  color: var(--accent-color);
+}
+.work-with-me-button {
+  display: none;
+}
+.feedback-image-box {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+.feedback-image {
+  width: 100%;
+}
+.quotation-box {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.feedback-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+.feedback-description {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.feedback-name {
+  font-size: 16px;
+  font-weight: 300;
+}
+.feedback-info-box {
+  margin-bottom: 40px;
+}
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.cta-section-title {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cta-section-button-box {
+  position: relative;
+}
+.cta-section-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Clash Display", sans-serif;
+}
+.cta-section-button-border {
+  border: 1px solid var(--accent-color);
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+// .footer-line {
+
+// }
+.footer-logo-name {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px;
+  color: var(--accent-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer-artist-info {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 35px;
+}
+.footer-list-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--accent-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-link {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 300;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.footer-menu-list,
+.footer-info-list {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+.footer-menu-box {
+  margin-bottom: 40px;
+}
+.footer-info-box {
+  margin-bottom: 40px;
+}
+.social-media-box {
+  display: flex;
+  flex-direction: column;
+  color: var(--main-color);
+  font-size: 16px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+.designer-link {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--main-color);
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+.highlighted {
+  color: var(--accent-color);
 }
