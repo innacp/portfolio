@@ -12,14 +12,12 @@
 </head>
 
 <body>
+    <div class="modal-container">
+        <p class="header-logo-text">Jacob Grönberg</p>
+        <img class="burger-icon" src="img/menu-toggle.svg" alt="menu-icon">
+    </div>
     <div class="main-page-wrapper">
         <section class="header">
-            <div class="modal-container">
-                <p class="header-logo-text">Jacob Grönberg</p>
-                <div class="burger-icon-box">
-                    <img class="burger-icon" src="img/menu-toggle.svg" alt="menu-icon">
-                </div>
-            </div>
             <div class="banner-container">
                 <h1 class="banner-title">Jacob<br>Grønberg</h1>
                 <p class="banner-subtitle">Photographer<br>& Visual artist</p>
@@ -28,14 +26,14 @@
                     <div class="cta-button-box">
                         <button class="cta-button">Work<br>With Me</button>
                     </div>
+                    <div class="scroll-down-box">
+                        <img class="scroll-down-arrow" src="img/down-arrow.svg" alt="arrow-icon">
+                        <p class="scroll-down-text">Scroll Down<br>& Explore</p>
+                    </div>
                 </div>
                 <div class="author-image-box">
                     <img src="img/jacob.jpg" alt="photo">
                     <p>Hi, Im Jacob</p>
-                </div>
-                <div class="scroll-down-box">
-                    <img class="scroll-down-arrow" src="img/down-arrow.svg" alt="arrow-icon">
-                    <p class="scroll-down-text">Scroll Down & Explore</p>
                 </div>
             </div>
         </section>
@@ -44,80 +42,93 @@
             <div class="services-container">
                 <div class="service-box">
                     <p class="service-number">01</p>
-                    <p class="service-title">Photo Shooting</p>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="service-info-box">
+                        <p class="service-title">Photo Shooting</p>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
                 </div>
                 <hr>
                 <div class="service-box">
                     <p class="service-number">02</p>
-                    <p class="service-title">Video Editing</p>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="service-info-box">
+                        <p class="service-title">Video Editing</p>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
                 </div>
                 <hr>
                 <div class="service-box">
                     <p class="service-number">03</p>
-                    <p class="service-title">Art Direction</p>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="service-info-box">
+                        <p class="service-title">Art Direction</p>
+                        <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="latest-work-section">
             <div class="latest-work-title-box">
-                <h2 class="latest-work-title">Latest <span class="highlighted-section-header">Work</span></h2>
+                <h2 class="latest-work-title section-title">Latest <span class="highlighted-section-title">Work</span>
+                </h2>
                 <div class="view-button-box">
                     <a class="view-all-button" href="#">View All</a>
                     <img src="img/right-arrow.svg" alt="arrow">
                 </div>
             </div>
             <div class="works-container">
-                <div class="work-box">
-                    <p class="work-title">Dancing in<br>Black & <span class="highlighted">White</span></p>
-                    <div class="work-image-box">
-                        <img class="work-image" src="img/header-main.jpg" alt="photo">
+                <div class="works-group-box">
+                    <div class="work-box project-one">
+                        <p class="work-title">Dancing in<br>Black & <span class="highlighted-project-title">White</span>
+                        </p>
+                        <div class="work-image-box project-one-image-box">
+                            <img class="work-image" src="img/header-main.jpg" alt="photo">
+                        </div>
+                        <div class="work-info-box">
+                            <p>New York</p>
+                            <p>October 2021</p>
+                        </div>
                     </div>
-                    <div class="work-info-box">
-                        <p>New York</p>
-                        <p>October 2021</p>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <p class="work-title">Feminine<br><span class="highlighted">Energy</span></p>
-                    <div class="work-image-box">
-                        <img class="work-image" src="img/girl.jpg" alt="photo">
-                    </div>
-                    <div class="work-info-box">
-                        <p>New York</p>
-                        <p>October 2021</p>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <p class="work-title">Style &<br><span class="highlighted">Fashion</span></p>
-                    <div class="work-image-box">
-                        <img class="work-image" src="img/guy sit.jpg" alt="photo">
-                    </div>
-                    <div class="work-info-box">
-                        <p>New York</p>
-                        <p>October 2021</p>
+                    <div class="work-box project-two">
+                        <p class="work-title">Feminine<br><span class="highlighted-project-title">Energy</span></p>
+                        <div class="work-image-box project-two-image-box">
+                            <img class="work-image" src="img/girl.jpg" alt="photo">
+                        </div>
+                        <div class="work-info-box">
+                            <p>New York</p>
+                            <p>October 2021</p>
+                        </div>
                     </div>
                 </div>
-                <div class="work-box">
-                    <p class="work-title">Eyes <span class="highlighted">Closed</span></p>
-                    <div class="work-image-box">
-                        <img class="work-image" src="img/eye.jpg" alt="photo">
+                <div class="works-group-box">
+                    <div class="work-box project-three">
+                        <p class="work-title">Style &<br><span class="highlighted-project-title">Fashion</span></p>
+                        <div class="work-image-box project-three-image-box">
+                            <img class="work-image" src="img/guy sit.jpg" alt="photo">
+                        </div>
+                        <div class="work-info-box">
+                            <p>New York</p>
+                            <p>October 2021</p>
+                        </div>
                     </div>
-                    <div class="work-info-box">
-                        <p>New York</p>
-                        <p>October 2021</p>
+                    <div class="work-box project-four">
+                        <p class="work-title">Eyes <span class="highlighted-project-title">Closed</span></p>
+                        <div class="work-image-box project-four-image-box">
+                            <img class="work-image" src="img/eye.jpg" alt="photo">
+                        </div>
+                        <div class="work-info-box">
+                            <p>New York</p>
+                            <p>October 2021</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="exhibitions-section">
             <div class="exhibitions-title-box">
-                <h2 class="exhibitions-title">Current <span class="highlighted-section-title">Exhibitions</span></h2>
+                <h2 class="exhibitions-title section-title">Current <span
+                        class="highlighted-section-title">Exhibitions</span></h2>
                 <div class="view-button-box">
                     <a class="view-all-button" href="#">View All</a>
                     <img src="img/right-arrow.svg" alt="arrow">
@@ -212,7 +223,8 @@
         </section>
         <section class="feedbacks-section">
             <div class="feedbacks-header">
-                <h3 class="feedbacks-section-title">What my Clients <span class="highlighted-section-title">Say</span>
+                <h3 class="feedbacks-section-title section-title">What my Clients <span
+                        class="highlighted-section-title">Say</span>
                 </h3>
                 <p class="feedbacks-subtitle">Worked with Over <span class="feedbacks-highlighted">50 clients</span>
                     around the
@@ -307,11 +319,11 @@
                         <a class="footer-link" href="#">Changelog</a>
                     </div>
                 </div>
-                <div class="social-media-box">
-                    <a class="footer-link" href="#">Twitter</a>
-                    <a class="footer-link" href="#">Instagram</a>
-                    <a class="footer-link" href="#">Facebook</a>
-                </div>
+            </div>
+            <div class="social-media-box">
+                <a class="footer-link" href="#">Twitter</a>
+                <a class="footer-link" href="#">Instagram</a>
+                <a class="footer-link" href="#">Facebook</a>
             </div>
             <a class="designer-link" href="https://templates.gola.io/">&#169; Made by <span class="highlighted">Pawel
                     Gola</span></a>
