@@ -64,6 +64,10 @@ html {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 300;
+  transition: color 1s;
+}
+.modal-item:hover {
+  color: var(--accent-color);
 }
 .modal-list-item-box {
   display: flex;
