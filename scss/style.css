@@ -367,6 +367,10 @@ hr {
   margin-bottom: 50px;
 }
 
+.cta-section-title br {
+  display: none;
+}
+
 .cta-section-button-box {
   position: relative;
 }
@@ -613,6 +617,9 @@ hr {
     line-height: 76px;
     margin-bottom: 0;
   }
+  .cta-section-title br {
+    display: inline;
+  }
   .cta-section-button {
     width: 200px;
     height: 200px;
@@ -659,8 +666,8 @@ hr {
     max-width: 1920px;
   }
   .banner-title {
-    font-size: 208px;
-    line-height: 210px;
+    font-size: 12vw;
+    line-height: 100%;
     text-align: left;
   }
   .banner-subtitle {
@@ -672,15 +679,16 @@ hr {
   }
   .banner-subtitle-two {
     padding-left: 80px;
+    white-space: nowrap;
   }
   .header-image-box {
     max-width: 700px;
     margin-left: auto;
-    margin-right: 90px;
   }
   .banner-title-box {
     position: absolute;
-    left: -700px;
+    right: 430px;
+    top: 72px;
   }
   .scroll-down-box {
     position: absolute;
@@ -835,5 +843,132 @@ hr {
   }
   .buy-ticket-button-box .buy-ticket-button {
     white-space: nowrap;
+  }
+  .feedbacks-section {
+    display: flex;
+    height: 774px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    margin-bottom: 130px;
+  }
+  .feedbacks-header {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    width: 50%;
+  }
+  .work-with-me-button {
+    display: flex;
+    border: 1px solid var(--accent-color);
+    border-radius: 50px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    width: 210px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    color: var(--accent-color);
+    font-size: 18px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .feedbacks-wrapper {
+    width: 50%;
+  }
+  .feedbacks-wrapper:last-child {
+    margin-right: 0px;
+  }
+  .main-page-wrapper {
+    padding: 0px 60px;
+  }
+  .feedback-line {
+    margin-bottom: 90px;
+  }
+  .feedback-container {
+    display: flex;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .feedback-image-box {
+    max-width: 120px;
+  }
+  .feedback-image {
+    width: 100%;
+  }
+  .feedbacks-subtitle {
+    font-size: 30px;
+  }
+  .cta-section {
+    flex-direction: row-reverse;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    margin-bottom: 150px;
+  }
+  .cta-section-title {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 102px;
+    margin-bottom: 0;
+  }
+  .cta-section-title br {
+    display: inline;
+  }
+  .cta-section-button {
+    width: 200px;
+    height: 200px;
+  }
+  .cta-section-button-border {
+    width: 220px;
+    height: 220px;
+  }
+  .footer-line {
+    margin-bottom: 70px;
+  }
+  .footer-content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .footer-content-container:last-child {
+    margin-right: 60px;
+  }
+  .footer-link {
+    display: inline-block;
+    text-align: left;
+  }
+  .footer-menu-list,
+  .footer-info-list {
+    align-items: start;
+  }
+  .footer-list-title {
+    font-size: 24px;
+    text-align: left;
+  }
+  .footer-logo-name {
+    font-size: 100px;
+    line-height: 100px;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 5px;
+  }
+  .footer-artist-info {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  .social-media-box {
+    flex-direction: row;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer-social-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .footer-menu-box,
+  .footer-info-box {
+    width: 25%;
   }
 }/*# sourceMappingURL=style.css.map */
