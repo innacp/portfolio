@@ -1,18 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --accent-color: #db574d;
+  --main-color: #101010;
+  --background-color: #eeedee;
+}
+
+html {
   box-sizing: border-box;
 }
 
-:root {
-  --main-color: #101010;
-  --accent-color: #db574d;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
   font-family: "Clash Display", sans-serif;
-  background-color: #eeedee;
+  background-color: var(--background-color);
   height: 100%;
 }
 
@@ -25,7 +35,7 @@ html {
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: #eeedee;
+  background-color: var(--background-color);
   flex-direction: column;
 }
 .modal-window.show {
@@ -104,7 +114,9 @@ html {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 5px 20px;
+  background-color: var(--background-color);
+  box-shadow: 0px 1px 1px rgba(16, 16, 16, 0.1);
 }
 
 .header-logo-text {
@@ -506,6 +518,9 @@ hr {
   color: var(--main-color);
   text-decoration: none;
 }
+.footer-link:hover {
+  color: var(--accent-color);
+}
 
 .footer-menu-list,
 .footer-info-list {
@@ -581,7 +596,7 @@ hr {
     max-width: 960px;
   }
   .modal-container {
-    padding: 32px;
+    padding: 5px 20px;
   }
   .scroll-down-box {
     position: absolute;
@@ -959,6 +974,9 @@ hr {
   }
   .buy-ticket-button-box .buy-ticket-button {
     white-space: nowrap;
+  }
+  .buy-ticket-button-box .buy-ticket-button:hover {
+    color: var(--main-color);
   }
   .feedbacks-section {
     display: flex;
