@@ -1,9 +1,3 @@
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
-
 :root {
   --accent-color: #db574d;
   --main-color: #101010;
@@ -769,9 +763,6 @@ hr {
     transition: width 1s, height 1s, margin-left 1s;
   }
   .cta-button:hover::after {
-    // border-color: black;
-    // width: 140px;
-    // height: 170px;
     margin-left: -21px;
   }
   .services-section {
